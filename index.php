@@ -1,8 +1,8 @@
 <head>
   <meta charset="utf-8">
-  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
   <link rel="icon" href="/favicon.png" type="image/x-icon">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
   <meta http-equiv="content-language" content="en">
   <meta http-equiv="content-language" content="fr">
