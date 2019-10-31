@@ -47,15 +47,14 @@
   </script>
 </head>
 
-
 <html>
-<?php include('header.html'); ?>
+<?php include('./src/html/header.html'); ?>
 <div>
     <h3>
       Bonjour ! Je suis Jean-Thavorak Phe
     </h3>
 </div>
-<?php include('footer.html'); ?>
+<?php include('./src/html/footer.html'); ?>
 <html>
 
 
