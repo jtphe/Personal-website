@@ -22,7 +22,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-  <link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
+  <script src="/public/js/navbar.js"></script>
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
@@ -49,11 +50,9 @@
 </head>
 
 <html>
-<?php include('./src/html/header.html'); ?>
-<div>
-    <h3>
-      Bonjour ! Je suis Jean-Thavorak Phe
-    </h3>
-</div>
-<?php include('./src/html/footer.html'); ?>
+<body>
+  <?php include('./src/html/header.html'); ?>
+
+  <?php include('./src/html/footer.html'); ?>
+</body>
 <html>
