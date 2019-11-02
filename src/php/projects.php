@@ -22,6 +22,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
