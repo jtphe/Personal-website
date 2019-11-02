@@ -1,5 +1,10 @@
 body {
-    margin: 0
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fa-bars {
+    color: white;
 }
 
 .navbar {
@@ -22,7 +27,7 @@ body {
     margin-left: auto;
 }
 
-#navbar-toggle {
+.navbar-toggle {
     display: none;
 }
 

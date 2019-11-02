@@ -24,6 +24,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
   <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
   <script src="/public/js/navbar.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
