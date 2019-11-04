@@ -1,12 +1,11 @@
-function classToggle() {
-    console.log("test");
-    const navs = document.querySelectorAll('.navbar-menu')
-
-    navs.forEach(nav => nav.classList.toggle('navbar-toggleShow'));
-}
-
-var res = document.querySelector('.navbar-toggle');
-console.log(res);
-if(res){
-    res.addEventListner('click', classToggle);
-}
+$(function() {
+    $(".navbar-toggle").on("click", function() {
+        if ($(".nav-link").hasClass("active")) {
+            $(".nav-link").removeClass("active");
+            $(this).find("a").html("<i class='fas fa-bars'></i>");
+        } else {
+            $(".nav-link").addClass("active");
+            $(this).find("a").html("<i class='fas fa-times'></i>");
+        }
+    });
+});
