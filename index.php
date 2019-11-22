@@ -51,9 +51,34 @@
 </head>
 
 <html>
+
 <body>
   <?php include('./src/html/header.html'); ?>
-
+  <div class='section-banner-welcome'>
+    <div class='section-banner-welcome-container'>
+      <div class='section-banner-welcome-infos'>
+        <div class='section-banner-welcome-infos-text'>
+          <div class='section-banner-welcome-infos-text-first'>
+            <h1>Hello, moi c'est Jean Phe !</h1>
+          </div>
+          <div class='section-banner-welcome-infos-text-second'>
+            <h3>Je suis développeur d'applications mobiles</h3>
+          </div>
+        </div>
+        <div class='section-banner-welcome-infos-buttons'>
+          <div>
+            <button class='btn--who-am-i'>Qui suis-je</button>
+          </div>
+          <div class='section-banner-welcome-infos-button-download'>
+            <button class='btn--download'>Télécharger mon CV</button>
+          </div>
+        </div>
+      </div>
+      <div class='section-banner-welcome-picture'>
+        <img class='profile-picture' src='./public/images/profilePicture.jpg' alt='Profile picture of Jean Phe'>
+      </div>
+    </div>
+  </div>
   <?php include('./src/html/footer.html'); ?>
 </body>
 <html>

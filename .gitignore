@@ -24,3 +24,4 @@ analytics/
 fancy-index/
 others/
 .htaccess
+.DS_Store
