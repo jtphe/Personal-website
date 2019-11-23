@@ -1,6 +1,11 @@
+@font-face {
+    font-family: Proxima;
+    src: url(../font/Proxima_Light.otf);
+}
+
 body {
     margin: 0;
-    font-family: "Oxygen", "Helvetica Neue", sans-serif;
+    font-family: Proxima, "Oxygen", "Helvetica Neue", sans-serif;
 }
 
 button {
@@ -9,6 +14,7 @@ button {
     font-size: inherit;
     font-family: inherit;
     padding: 0.5em 1em;
+    height: 2.7rem;
     outline: none;
     border: none;
 }
@@ -22,6 +28,7 @@ button::before {
     left: 0;
     right: 0;
     background-color: #3080e8;
+    border-radius: 12px;
     color: white !important;
     transform-origin: center bottom;
     transform: scaleY(0);
@@ -37,34 +44,43 @@ button::before {
     left: 0;
     right: 0;
     background-color: #545454;
+    border-radius: 12px;
     transform-origin: center bottom;
     transform: scaleY(0);
     transition: transform 0.25s ease-in-out;
 }
 
-.btn--download:hover{
+.btn--download:hover {
     color: white;
+    border-radius: 14px;
+    border: solid 0.1rem #3080e8;
 }
 
 button:hover {
     cursor: pointer;
+    border-radius: 12px;
 }
 
 button:hover::before {
     transform-origin: center top;
+    border-radius: 12px;
     transform: scaleY(1);
 }
 
-.btn--who-am-i{
+.btn--who-am-i {
     background-color: #3080e8;
+    box-shadow: 3px 4px 3px #545454;
+    border-radius: 12px;
     text-align: center;
     height: 2.7rem;
     color: white;
 }
 
-.btn--download{
+.btn--download {
     background-color: transparent;
-    border: solid #545454;
+    border-radius: 12px;
+    box-shadow: 3px 4px 3px #545454;
+    border: solid 0.1rem #545454;
     color: #545454;
 }
 
@@ -78,8 +94,13 @@ button:hover::before {
     color: #545454;
 }
 
+.fab:hover,
+.fas:hover {
+    color: #3080e8;
+}
+
 .navbar {
-    background-color: #e4e4e4;
+    background-color: #fff;
     display: flex;
     padding: 16px;
 }
@@ -112,8 +133,13 @@ button:hover::before {
     color: white;
 }
 
+.footer-name {
+    text-decoration: none;
+    color: #3080e8;
+}
+
 .footer-container {
-    background-color: #e4e4e4;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
 }
@@ -140,12 +166,16 @@ button:hover::before {
 .footer-container--social {
     width: 100%;
     padding: 2rem 2rem 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .footer-container--social-navbar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin: auto;
 }
 
 .container--social-col {
@@ -173,25 +203,33 @@ li.social-links {
 }
 
 .footer-navbar {
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     margin-bottom: 1rem;
 }
 
 .footer-color {
     color: #545454 !important;
+    padding-right: 4rem;
 }
 
 .footer-copyright {
     padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
+}
+
+.footer-copyright--content {
+    border-top: solid #545454;
+    border-top-width: thin;
     color: #545454;
+    padding-top: 1rem;
 }
 
 .section-banner-welcome {
     margin: auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: white;
+    background-color: #F4F5F6;
 }
 
 .section-banner-welcome-container {
@@ -227,9 +265,144 @@ li.social-links {
 
 .profile-picture {
     width: 280px;
-    height: 190px;
+    height: 280px;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer-container--profile {
+        padding-left: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .footer-container--profile {
+        padding-left: 3rem;
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .footer-container--social-navbar {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 2rem;
+    }
+
+    .social-links {
+        padding-left: 0;
+    }
+
+    .container--social-col {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .profile-picture {
+        width: 200px;
+        height: 200px;
+    }
+
+    .footer-color {
+        padding-right: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 620px) {
+    .profile-picture {
+        width: 180px;
+        height: 180px;
+    }
+
+    .section-banner-hello {
+        font-size: 1.5rem !important;
+    }
+
+    .section-banner-job {
+        font-size: 1rem !important;
+    }
+
+    .btn--download,
+    .btn--who-am-i {
+        font-size: 0.8rem;
+    }
+
+    .footer-container--social {
+        padding-left: 0;
+    }
+
+    .footer-container--profile {
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .footer-container--social-navbar {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .footer-copyright {
+        text-align: center;
+        border-top: solid #545454;
+        border-top-width: thin;
+        color: #545454;
+    }
+
+    .footer-copyright--content {
+        border: none;
+        padding-top: 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-container--profile {
+        width: 100%;
+    }
+
+    .footer-container--social {
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+
+    .social-links:first-child {
+        margin-left: 0;
+    }
+
+    .container--social-icon {
+        margin-top: 1rem;
+    }
+
+    .section-banner-welcome-container {
+        flex-direction: column;
+    }
+
+    .section-banner-job {
+        margin-top: 0;
+    }
+
+    .section-banner-hello {
+        text-align: center;
+    }
+
+    .section-banner-welcome-infos-buttons {
+        flex-direction: column;
+    }
+
+    .section-banner-welcome-infos-button-whoami {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .section-banner-welcome-infos-button-download {
+        margin: auto auto 1.5rem auto !important;
+    }
+
+}
 
 @media screen and (max-width: 415px) {
 
@@ -255,5 +428,20 @@ li.social-links {
 
     .navbar-toggleShow {
         display: flex;
+    }
+
+    .section-banner-welcome-infos-button-whoami {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .section-banner-hello {
+        font-size: 1.2rem !important;
+    }
+
+    .section-banner-job {
+        font-size: 0.8rem !important;
     }
 }
