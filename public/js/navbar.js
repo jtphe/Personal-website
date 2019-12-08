@@ -1,11 +1,9 @@
-$(function() {
-    $(".navbar-toggle").on("click", function() {
-        if ($(".nav-link").hasClass("active")) {
-            $(".nav-link").removeClass("active");
-            $(this).find("a").html("<i class='fas fa-bars'></i>");
-        } else {
-            $(".nav-link").addClass("active");
-            $(this).find("a").html("<i class='fas fa-times'></i>");
-        }
+window.addEventListener('load', function () {
+    let mainNav = document.getElementsByClassName('navbar-menu');
+    let navBarToggle = document.getElementById('js-navbar-toggle');
+
+    console.log('mainNav', mainNav);
+    navBarToggle.addEventListener('click', function () {
+        mainNav.style.setProperty('display', 'initial');
     });
-});
+})

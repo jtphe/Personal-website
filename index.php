@@ -22,8 +22,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
-  <script src="/public/js/navbar.js"></script>
+  <script src="./public/js/navbar.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
   <meta name="msapplication-TileColor" content="#000000">
@@ -54,7 +56,7 @@
 
 <body>
   <?php include('./src/html/header.html'); ?>
-  <div class='section-banner-welcome'>
+  <div class="section-banner-welcome">
     <div class='section-banner-welcome-container'>
       <div class='section-banner-welcome-infos'>
         <div class='section-banner-welcome-infos-text'>
@@ -67,10 +69,12 @@
         </div>
         <div class='section-banner-welcome-infos-buttons'>
           <div class='section-banner-welcome-infos-button-whoami'>
-            <button class='btn--who-am-i'>Qui suis-je ?</button>
+            <button type="button" class="btn btn-primary btn--who-am-i"><a class="btn--download-link" href="#who-am-i">Qui suis-je ?</a></button>
           </div>
           <div class='section-banner-welcome-infos-button-download'>
-            <button class='btn--download'>Télécharger mon CV</button>
+            <!-- <button class='btn-download'></button> -->
+            <button type="button" class="btn btn-primary btn--download"><a class="btn--download-link" href="public/CV_Jean_Thavorak_Phe.pdf" target="_blank" rel="noopener noreferrer">Télécharger mon CV</a></button>
+
           </div>
         </div>
       </div>
@@ -78,6 +82,29 @@
         <img class='profile-picture' src='./public/images/profilePicture.png' alt='Profile picture of Jean Phe'>
       </div>
     </div>
+  </div>
+  <div class="section-presentation">
+    <div class="section-presentation-col">
+      <div class="section-presentation-col--title main-title" id="who-am-i"> <i class="far fa-question-circle"></i> Qui suis-je</div>
+      <div class="section-presentation-col--content">Passionné par l'informatique, les nouvelles technologies et l'électronique je suis étudiant apprenti en informatique.
+        J'excerce actuellement le poste de développeur mobile chez <a href="https://www.atolia.com">Atolia</a> 💻
+        <br>En dehors de l'informatique, je suis membre de <a href="http://www.eglise-khmere.com">l'église EMCS</a> et chef petits-flambeaux dans <a href="https://www.flambeaux.org/">le mouvement des flambeaux et des claires-flammes</a>
+      </div>
+    </div>
+    <div class="section-presentation-col">
+      <div class="section-presentation-col--title"><i class="fas fa-bullseye"></i> Mes objectifs</div>
+      <div class="section-presentation-col--content">
+        J'ai différents objectifs dans ma vie tel que: obtenir ma licence de développeur d'applications mobiles et objets connectés dans un premier temps ! 🧑🏻‍🎓
+        <br>Puis probablement continuer sur un master en développement mobile par la suite. J'aimerai aussi voyager à travers le monde et découvrir différents paysages ! 🌎
+      </div>
+    </div>
+    <div class="section-presentation-col">
+      <div class="section-presentation-col--title"><i class="fas fa-hourglass-half"></i> Citation favorite</div>
+      <div class="section-presentation-col--content">
+        "The result we want is often found through the process we're prone to resist" - Steven Furtick
+      </div>
+    </div>
+  </div>
   </div>
   <?php include('./src/html/footer.html'); ?>
 </body>

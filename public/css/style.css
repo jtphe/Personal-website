@@ -8,82 +8,42 @@ body {
     font-family: Proxima, "Oxygen", "Helvetica Neue", sans-serif;
 }
 
-button {
-    z-index: 1;
-    position: relative;
-    font-size: inherit;
-    font-family: inherit;
-    padding: 0.5em 1em;
-    height: 2.7rem;
-    outline: none;
-    border: none;
+a {
+    text-decoration: none;
+    color: #3080e8;
 }
 
-button::before {
-    content: '';
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #3080e8;
-    border-radius: 12px;
-    color: white !important;
-    transform-origin: center bottom;
-    transform: scaleY(0);
-    transition: transform 0.25s ease-in-out;
+a:hover {
+    text-decoration: none;
 }
 
-.btn--who-am-i::before {
-    content: '';
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #545454;
-    border-radius: 12px;
-    transform-origin: center bottom;
-    transform: scaleY(0);
-    transition: transform 0.25s ease-in-out;
+.main-title {
+    font-size: 1.5rem;
+    margin-bottom: 0 !important;
 }
 
-.btn--download:hover {
-    color: white;
-    border-radius: 14px;
-    border: solid 0.1rem #3080e8;
-}
-
-button:hover {
-    cursor: pointer;
-    border-radius: 12px;
-}
-
-button:hover::before {
-    transform-origin: center top;
-    border-radius: 12px;
-    transform: scaleY(1);
-}
-
-.btn--who-am-i {
-    background-color: #3080e8;
-    box-shadow: 3px 4px 3px #545454;
-    border-radius: 12px;
-    text-align: center;
-    height: 2.7rem;
-    color: white;
-}
-
+.btn--who-am-i,
 .btn--download {
-    background-color: transparent;
+    background-color: #3080e8;
     border-radius: 12px;
-    box-shadow: 3px 4px 3px #545454;
-    border: solid 0.1rem #545454;
-    color: #545454;
+    height: 2.7rem;
 }
 
+.btn--download-link {
+    color: white;
+}
+
+.btn--download-link:hover {
+    color: white;
+}
+
+.btn--who-am-i-link {
+    color: white;
+}
+
+.btn--who-am-i-link:hover {
+    color: white;
+}
 
 .fa-bars {
     color: white;
@@ -97,6 +57,15 @@ button:hover::before {
 .fab:hover,
 .fas:hover {
     color: #3080e8;
+}
+
+.fa-bullseye,
+.fa-hourglass-half {
+    color: #3080e8;
+}
+
+.active {
+    display: block;
 }
 
 .navbar {
@@ -176,6 +145,7 @@ button:hover::before {
     flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
+    margin-left: 5rem;
 }
 
 .container--social-col {
@@ -257,6 +227,7 @@ li.social-links {
 .section-banner-welcome-infos-buttons {
     display: flex;
     flex-direction: row;
+    margin-top: 1rem;
 }
 
 .section-banner-welcome-infos-button-download {
@@ -266,6 +237,28 @@ li.social-links {
 .profile-picture {
     width: 280px;
     height: 280px;
+}
+
+.section-presentation {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.section-presentation-col {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: justify;
+    width: 33%;
+}
+
+.section-presentation-col--title {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: #3080e8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -295,6 +288,10 @@ li.social-links {
     .container--social-col {
         margin: 0;
     }
+
+    .section-presentation {
+        font-size: 0.8rem !important;
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -321,6 +318,28 @@ li.social-links {
 
     .section-banner-job {
         font-size: 1rem !important;
+    }
+
+    .section-presentation {
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section-presentation-col {
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+
+    .section-presentation-col:last-child {
+        width: 70%;
+        margin-bottom: 0;
+    }
+
+    .section-presentation-col--title {
+        margin-bottom: 0;
     }
 
     .btn--download,
@@ -415,7 +434,7 @@ li.social-links {
         margin-left: 0;
     }
 
-    .navbar-menu {
+    #js-menu {
         display: none;
     }
 
@@ -432,6 +451,10 @@ li.social-links {
 
     .section-banner-welcome-infos-button-whoami {
         margin-bottom: 1.5rem;
+    }
+
+    .main-title {
+        font-size: 1.2rem;
     }
 }
 
