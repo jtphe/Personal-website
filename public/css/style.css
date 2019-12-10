@@ -68,13 +68,13 @@ a:hover {
     display: block;
 }
 
-.navbar {
+.navbar-phe {
     background-color: #fff;
     display: flex;
     padding: 16px;
 }
 
-.navbar-brand {
+.navbar-brand--phe {
     color: #3080e8 !important;
     font-size: 1.5rem;
     font-weight: bold;
@@ -84,7 +84,7 @@ a:hover {
     display: flex;
 }
 
-.nav-link {
+.nav-link--phe {
     color: #545454;
     padding-right: 2rem;
     text-decoration: none;
@@ -94,7 +94,7 @@ a:hover {
     margin-left: auto;
 }
 
-.navbar-toggle {
+.navbar-toggle--phe {
     display: none;
 }
 
@@ -425,7 +425,7 @@ li.social-links {
 
 @media screen and (max-width: 415px) {
 
-    .navbar,
+    .navbar-phe,
     .navbar-menu {
         flex-direction: column;
     }
@@ -438,14 +438,14 @@ li.social-links {
         display: none;
     }
 
-    .navbar-toggle {
+    .navbar-toggle--phe {
         align-self: flex-end;
         display: initial;
         position: absolute;
         cursor: pointer;
     }
 
-    .navbar-toggleShow {
+    .navbar-toggle--pheShow {
         display: flex;
     }
 
