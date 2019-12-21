@@ -48,4 +48,11 @@
     </script>
 </head>
 
-<?php include('../html/header.html'); ?>
+<html>
+
+<body>
+    <?php include('../html/header.html'); ?>
+    <h2 class="wait">Work on progress 🕒</h2>
+</body>
+
+</html>

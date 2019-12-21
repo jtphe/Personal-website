@@ -92,6 +92,15 @@ a:hover {
   color: #3080e8;
 }
 
+.wait{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  color: #636e72;
+}
+
 .active {
   display: block;
 }
