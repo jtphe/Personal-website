@@ -26,7 +26,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
   <script src="./public/js/navbar.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">

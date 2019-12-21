@@ -22,7 +22,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
@@ -31,7 +30,7 @@
         var _paq = window._paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);@
+        _paq.push(['enableLinkTracking']);
         (function() {
             var u = "//jtphe.ddns.net/analytics/";
             _paq.push(['setTrackerUrl', u + 'matomo.php']);
