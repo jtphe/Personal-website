@@ -23,6 +23,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
     <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
+    <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
     <title>Contact</title>
@@ -51,7 +52,37 @@
 
 <body>
     <?php include('../html/header.html'); ?>
-    <h2 class="wait">Work on progress 🕒</h2>
+    <div class="container-contact">
+        <div class="contact-text">
+            <div>
+                <h3>Contactez-moi !</h3>
+            </div>
+            <div>
+                <h4>Une question, une demande, n'hésitez pas à me contacter 😊</h4>
+            </div>
+            <div class="contact-mail">
+                <a href="mailto:jean.phe.fr@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-envelope-square fa-2x"></i>
+                </a>
+                <div class="contact-span--email">jean.phe.fr@gmail.com</div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form>
+                <div class="form-name">
+                    <input class="input-jean" placeholder="Nom et prénom">
+                </div>
+                <div class="form-email">
+                    <input class="input-jean" type="email" placeholder="nom@exemple.com">
+                </div>
+                <div class="form-message">
+                    <textarea class="textarea-jean" placeholder="Message"></textarea>
+                </div>
+            </form>
+            <button class="button-send">Envoyer</button>
+        </div>
+    </div>
+    <?php include('../html/footer.html'); ?>
 </body>
 
 </html>

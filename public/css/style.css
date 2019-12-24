@@ -37,11 +37,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #3080e8;
 }
 
 a:hover {
   text-decoration: none;
+  color: #3080e8;
 }
 
 .main-title {
@@ -92,7 +92,7 @@ a:hover {
   color: #3080e8;
 }
 
-.wait{
+.wait {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -182,7 +182,7 @@ a:hover {
   flex-wrap: wrap;
   flex-direction: row;
   margin: auto;
-  margin-left: 5rem;
+  margin-left: 9rem;
 }
 
 .container--social-col {
@@ -217,6 +217,10 @@ li.social-links {
 .footer-color {
   color: #545454 !important;
   padding-right: 4rem;
+}
+
+.footer-color:hover {
+  color: #3080e8 !important;
 }
 
 .footer-copyright {
@@ -304,6 +308,76 @@ li.social-links {
   margin-bottom: 0.4rem;
   font-weight: bold;
   color: #3080e8;
+}
+
+.container-contact {
+  background-color: #f4f5f6;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #636e72;
+}
+
+.contact-text {
+  margin: auto;
+  margin-top: 0;
+}
+
+.contact-mail {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-form {
+  margin: auto;
+  width: 20rem;
+}
+
+.contact-span--email {
+  padding-top: 0.3rem;
+  margin-left: 1rem;
+}
+
+.form-name,
+.form-email,
+.form-message {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.form-label {
+  padding-bottom: 0.4rem;
+}
+
+.input-jean, .textarea-jean {
+  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-family: Segoe UI Regular;
+  height: 45px;
+  resize: none;
+}
+
+.button-send{
+  float: right;
+  padding: 0.8rem;
+  background-color: #fff;
+  border-radius: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #636e72;
 }
 
 @media screen and (max-width: 1024px) {
