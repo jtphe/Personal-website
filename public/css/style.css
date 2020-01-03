@@ -9,30 +9,26 @@
   font-family: "Segoe UI Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Segoe UI Italic"),
-    url("../font/Segoe\ UI\ Italic.woff") format("woff");
+  src: local("Segoe UI Italic"), url("../font/Segoe\ UI\ Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Segoe UI Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Segoe UI Bold"),
-    url("../font/Segoe\ UI\ Bold.woff") format("woff");
+  src: local("Segoe UI Bold"), url("../font/Segoe\ UI\ Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: "Segoe UI Bold Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Segoe UI Bold Italic"),
-    url("../font/Segoe\ UI\ Bold\ Italic.woff") format("woff");
+  src: local("Segoe UI Bold Italic"), url("../font/Segoe\ UI\ Bold\ Italic.woff") format("woff");
 }
 
 body {
   margin: 0;
-  font-family: Segoe UI Regular, Segoe UI Bold, Segoe UI Italic,
-    Segoe UI Italic Bold, "Helvetica Neue", sans-serif;
+  font-family: Segoe UI Regular, Segoe UI Bold, Segoe UI Italic, Segoe UI Italic Bold, "Helvetica Neue", sans-serif;
 }
 
 a {
@@ -49,8 +45,7 @@ a:hover {
   margin-bottom: 0 !important;
 }
 
-.btn--who-am-i,
-.btn--download {
+.btn--who-am-i, .btn--download {
   background-color: #3080e8;
   border-radius: 12px;
   height: 2.7rem;
@@ -77,18 +72,15 @@ a:hover {
   color: white;
 }
 
-.fab,
-.fas {
+.fab, .fas {
   color: #545454;
 }
 
-.fab:hover,
-.fas:hover {
+.fab:hover, .fas:hover {
   color: #3080e8;
 }
 
-.fa-bullseye,
-.fa-hourglass-half {
+.fa-bullseye, .fa-hourglass-half {
   color: #3080e8;
 }
 
@@ -210,7 +202,6 @@ li.social-links {
 }
 
 .footer-navbar {
-  /* margin-top: 0.5rem; */
   margin-bottom: 1rem;
 }
 
@@ -313,7 +304,6 @@ li.social-links {
 .container-contact {
   background-color: #f4f5f6;
   display: flex;
-  align-items: center;
   flex-direction: row;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -321,68 +311,16 @@ li.social-links {
 }
 
 .contact-text {
-  margin: auto;
-  margin-top: 0;
-}
-
-.contact-mail {
-  display: flex;
-  flex-direction: row;
-}
-
-.contact-form {
-  margin: auto;
-  width: 20rem;
-}
-
-.contact-span--email {
-  padding-top: 0.3rem;
-  margin-left: 1rem;
-}
-
-.form-name,
-.form-email,
-.form-message {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 1rem;
-}
-
-.form-label {
-  padding-bottom: 0.4rem;
-}
-
-.input-jean, .textarea-jean {
-  box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	outline: none;
-	display: block;
-	width: 100%;
-	padding: 7px;
-	border: none;
-	border-bottom: 1px solid #ddd;
-	background: transparent;
-  margin-bottom: 10px;
-  font-size: 1rem;
-  font-family: Segoe UI Regular;
-  height: 45px;
-  resize: none;
-}
-
-.button-send{
-  float: right;
-  padding: 0.8rem;
-  background-color: #fff;
-  border-radius: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  color: #636e72;
+  margin-left: 12rem;
+  align-items: left;
 }
 
 @media screen and (max-width: 1024px) {
   .footer-container--profile {
     padding-left: 7.5rem;
+  }
+  .contact-text {
+    margin-left: 7rem;
   }
 }
 
@@ -399,17 +337,23 @@ li.social-links {
     margin-left: 0;
     margin-right: 2rem;
   }
-
   .social-links {
     padding-left: 0;
   }
-
   .container--social-col {
     margin: 0;
   }
-
   .section-presentation {
     font-size: 0.8rem !important;
+  }
+  .contact-text {
+    margin-left: 4rem;
+  }
+  .contact-title {
+    font-size: 0.8rem;
+  }
+  .typeform-share {
+    font-size: 1rem !important;
   }
 }
 
@@ -418,7 +362,6 @@ li.social-links {
     width: 200px;
     height: 200px;
   }
-
   .footer-color {
     padding-right: 2rem;
   }
@@ -429,15 +372,12 @@ li.social-links {
     width: 180px;
     height: 180px;
   }
-
   .section-banner-hello {
     font-size: 1.5rem !important;
   }
-
   .section-banner-job {
     font-size: 1rem !important;
   }
-
   .section-presentation {
     flex-direction: column;
     margin: auto;
@@ -445,35 +385,27 @@ li.social-links {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-
   .section-presentation-col {
     width: 70%;
     margin-bottom: 1rem;
   }
-
   .section-presentation-col:last-child {
     width: 70%;
     margin-bottom: 0;
   }
-
   .section-presentation-col--title {
     margin-bottom: 0;
   }
-
-  .btn--download,
-  .btn--who-am-i {
+  .btn--download, .btn--who-am-i {
     font-size: 0.8rem;
   }
-
   .footer-container--social {
     padding-left: 0;
   }
-
   .footer-container--profile {
     padding-left: 2rem;
     padding-right: 1rem;
   }
-
   .footer-container--social-navbar {
     margin-right: 0;
   }
@@ -486,90 +418,84 @@ li.social-links {
     border-top-width: thin;
     color: #545454;
   }
-
   .footer-copyright--content {
     border: none;
     padding-top: 0;
   }
-
   .footer-container {
     flex-direction: column;
   }
-
   .footer-container--profile {
     width: 100%;
   }
-
   .footer-container--social {
     flex-direction: column;
     padding-left: 2rem;
   }
-
   .social-links:first-child {
     margin-left: 0;
   }
-
   .container--social-icon {
     margin-top: 1rem;
   }
-
   .section-banner-welcome-container {
     flex-direction: column;
   }
-
   .section-banner-job {
     margin-top: 0;
   }
-
   .section-banner-hello {
     text-align: center;
   }
-
   .section-banner-welcome-infos-buttons {
     flex-direction: column;
   }
-
   .section-banner-welcome-infos-button-whoami {
     margin: auto;
     margin-bottom: 1rem;
   }
-
   .section-banner-welcome-infos-button-download {
     margin: auto auto 1.5rem auto !important;
   }
 }
 
 @media screen and (max-width: 415px) {
-  .navbar-phe,
-  .navbar-menu {
+  .navbar-phe, .navbar-menu {
     flex-direction: column;
   }
-
   .navbar-menu--right {
     margin-left: 0;
   }
-
   #js-menu {
     display: none;
   }
-
   .navbar-toggle--phe {
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
   }
-
   .navbar-toggle--pheShow {
     display: flex;
   }
-
   .section-banner-welcome-infos-button-whoami {
     margin-bottom: 1.5rem;
   }
-
   .main-title {
     font-size: 1.2rem;
+  }
+  .contact-text {
+    margin-left: 2rem;
+  }
+  .contact-title {
+    font-size: 0.7rem;
+    margin-right: 1.5rem;
+  }
+  .typeform-share{
+    font-size: 0.7rem !important;
+    line-height: 40px !important;
+    height: 40px !important;
+    padding: 0 20px !important;
   }
 }
 
@@ -577,8 +503,21 @@ li.social-links {
   .section-banner-hello {
     font-size: 1.2rem !important;
   }
-
   .section-banner-job {
     font-size: 0.8rem !important;
+  }
+  .contact-title {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+  }
+  .contact-text {
+    margin-left: 0.5rem;
+  } 
+  .typeform-share{
+    font-size: 0.5rem !important;
+    line-height: 30px !important;
+    height: 30px !important;
+    padding: 0 10px !important;
+    margin-left: 0.3rem !important;
   }
 }

@@ -54,32 +54,30 @@
     <?php include('../html/header.html'); ?>
     <div class="container-contact">
         <div class="contact-text">
-            <div>
-                <h3>Contactez-moi !</h3>
+            <div class="contact-title">
+                <h2>Une question, une demande, n'hésitez pas à me contacter 😊</h2>
             </div>
-            <div>
-                <h4>Une question, une demande, n'hésitez pas à me contacter 😊</h4>
+            <div class="contact-typeform">
+                <a class="typeform-share button" href="https://jphe.typeform.com/to/LaNZQi" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#3080E8;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:18px;line-height:45px;text-align:center;margin:0;height:45px;padding:0px 30px;border-radius:22px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Contactez moi ! </a>
+                <script>
+                    (function() {
+                        var qs, js, q, s, d = document,
+                            gi = d.getElementById,
+                            ce = d.createElement,
+                            gt = d.getElementsByTagName,
+                            id = "typef_orm_share",
+                            b = "https://embed.typeform.com/";
+                        if (!gi.call(d, id)) {
+                            js = ce.call(d, "script");
+                            js.id = id;
+                            js.src = b + "embed.js";
+                            q = gt.call(d, "script")[0];
+                            q.parentNode.insertBefore(js, q)
+                        }
+                    })()
+                </script>
             </div>
-            <div class="contact-mail">
-                <a href="mailto:jean.phe.fr@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-envelope-square fa-2x"></i>
-                </a>
-                <div class="contact-span--email">jean.phe.fr@gmail.com</div>
-            </div>
-        </div>
-        <div class="contact-form">
-            <form>
-                <div class="form-name">
-                    <input class="input-jean" placeholder="Nom et prénom">
-                </div>
-                <div class="form-email">
-                    <input class="input-jean" type="email" placeholder="nom@exemple.com">
-                </div>
-                <div class="form-message">
-                    <textarea class="textarea-jean" placeholder="Message"></textarea>
-                </div>
-            </form>
-            <button class="button-send">Envoyer</button>
+
         </div>
     </div>
     <?php include('../html/footer.html'); ?>
