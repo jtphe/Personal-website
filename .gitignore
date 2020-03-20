@@ -19,11 +19,11 @@
 # End of https://www.gitignore.io/api/linux
 
 
-#others 
+#others
 analytics/
 fancy-index/
 others/
 nextcloud/
-public/CV_MAIA_SCHNEIDER.pdf
+CV/
 .htaccess
 .DS_Store
