@@ -85,16 +85,14 @@
   <div class="section-presentation">
     <div class="section-presentation-col">
       <div class="section-presentation-col--title main-title" id="who-am-i"> <i class="far fa-question-circle"></i> Qui suis-je</div>
-      <div class="section-presentation-col--content">Passionné par l'informatique, les nouvelles technologies et l'électronique je suis étudiant apprenti en informatique.
-        J'excerce actuellement le poste de développeur mobile chez <a href="https://www.atolia.com">Atolia</a> 💻
-        <br>En dehors de l'informatique, je suis membre de <a href="http://www.eglise-khmere.com">l'église EMCS</a> et chef petits-flambeaux dans <a href="https://www.flambeaux.org/">le mouvement des flambeaux et des claires-flammes</a>
+      <div class="section-presentation-col--content">Passionné par l'informatique, les nouvelles technologies et l'électronique j'excerce actuellement le poste de développeur mobile chez <a href="https://www.atolia.com">Atolia</a> 💻
       </div>
     </div>
     <div class="section-presentation-col">
       <div class="section-presentation-col--title"><i class="fas fa-bullseye"></i> Mes objectifs</div>
       <div class="section-presentation-col--content">
-        J'ai différents objectifs dans ma vie tel que: obtenir ma licence de développeur d'applications mobiles et objets connectés dans un premier temps ! 🧑🏻‍🎓
-        <br>Puis probablement continuer sur un master en développement mobile par la suite. J'aimerai aussi voyager à travers le monde et découvrir différents paysages ! 🌎
+        J'ai différents objectifs dans ma vie tel que: Approfondir mes connaissances dans le domaine de l'informatique ou encore m'améliorer dans la pratique musicale.
+        <br>J'aimerai aussi voyager à travers le monde et découvrir différents paysages ! 🌎
       </div>
     </div>
     <div class="section-presentation-col">
