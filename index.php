@@ -102,7 +102,6 @@
       </div>
     </div>
   </div>
-  </div>
   <?php include('./src/html/footer.html'); ?>
 </body>
 <html>

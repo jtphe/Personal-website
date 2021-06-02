@@ -51,7 +51,8 @@
 
 <body>
     <?php include('../html/header.html'); ?>
-    <h2 class="wait">Work on progress 🕒</h2>
+    <h2 class="wait">En cours de développement... 🕒</h2>
+    <?php include('../html/footer.html'); ?>
 </body>
 
 </html>

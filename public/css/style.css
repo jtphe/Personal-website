@@ -129,6 +129,9 @@ a:hover {
 
 .footer {
   color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-name {
@@ -491,7 +494,7 @@ li.social-links {
     font-size: 0.7rem;
     margin-right: 1.5rem;
   }
-  .typeform-share{
+  .typeform-share {
     font-size: 0.7rem !important;
     line-height: 40px !important;
     height: 40px !important;
@@ -512,8 +515,8 @@ li.social-links {
   }
   .contact-text {
     margin-left: 0.5rem;
-  } 
-  .typeform-share{
+  }
+  .typeform-share {
     font-size: 0.5rem !important;
     line-height: 30px !important;
     height: 30px !important;
