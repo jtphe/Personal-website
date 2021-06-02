@@ -6,22 +6,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
   <meta http-equiv="content-language" content="en">
   <meta http-equiv="content-language" content="fr">
-  <meta name="description" lang="fr" content="Bonjour je suis Jean-Thavorak Phe & je suis un développeur d'applications mobiles">
-  <meta name="description" lang="en" content="Hello I'm Jean-Thavorak Phe & I'm a mobile developer">
-  <meta name="theme-color" content="#000000">
-  <link rel="apple-touch-icon" sizes="57x57" href="../../public/images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="../../public/images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="../../public/images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="../../public/images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="../../public/images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="../../public/images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="../../public/images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="../../public/images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="../../public/images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="../../public/images/favicons/android-icon-192x192.png">
+  <meta name="description" lang="fr" content="Bonjour je suis Jean-Thavorak Phe & je suis un développeur">
+  <meta name="description" lang="en" content="Hello I'm Jean-Thavorak Phe & I'm a developer">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../public/images/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../../public/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="../../public/images/favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../../public/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../../public/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3080e8">
+  <meta name="msapplication-TileColor" content="#3080e8">
+  <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
@@ -63,12 +57,12 @@
             <h1 class='section-banner-hello'>Hello, moi c'est Jean Phe !</h1>
           </div>
           <div class='section-banner-welcome-infos-text-second'>
-            <h3 class='section-banner-job'>Je suis développeur d'applications mobiles</h3>
+            <h3 class='section-banner-job'>Je suis développeur 🧑🏻‍💻</h3>
           </div>
         </div>
         <div class='section-banner-welcome-infos-buttons'>
           <div class='section-banner-welcome-infos-button-whoami'>
-            <button type="button" class="btn btn-primary btn--who-am-i"><a class="btn--download-link" href="#who-am-i">Qui suis-je ?</a></button>
+            <button type="button" class="btn btn-primary btn--who-am-i"><a class="btn--download-link" href="src/php/about.php">Qui suis-je ?</a></button>
           </div>
           <div class='section-banner-welcome-infos-button-download'>
             <!-- <button class='btn-download'></button> -->
@@ -98,7 +92,7 @@
     <div class="section-presentation-col">
       <div class="section-presentation-col--title"><i class="fas fa-hourglass-half"></i> Citation favorite</div>
       <div class="section-presentation-col--content">
-        "The result we want is often found through the process we're prone to resist" - Steven Furtick
+        "L'échec est le fondement de la réussite" - Patrice Martorano
       </div>
     </div>
   </div>
