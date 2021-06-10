@@ -1,43 +1,23 @@
 @font-face {
-  font-family: "Segoe UI Regular";
+  font-family: 'Futura Now Headline Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Segoe UI Regular"), url("../font/Segoe\ UI.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Italic"), url("../font/Segoe\ UI\ Italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Bold"), url("../font/Segoe\ UI\ Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Segoe UI Bold Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Segoe UI Bold Italic"), url("../font/Segoe\ UI\ Bold\ Italic.woff") format("woff");
+  src: local('Futura Now Headline Regular'), url('FuturaNowHeadline.woff') format('woff');
 }
 
 body {
   margin: 0;
-  font-family: Segoe UI Regular, Segoe UI Bold, Segoe UI Italic, Segoe UI Italic Bold, "Helvetica Neue", sans-serif;
+  font-family: Futura Now Headline Regular, "Helvetica Neue", sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: #457B9D;
 }
 
 a:hover {
   text-decoration: none;
-  color: #3080e8;
+  color: #1D3557;
 }
 
 .main-title {
@@ -45,10 +25,22 @@ a:hover {
   margin-bottom: 0 !important;
 }
 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #1D3557;
+  border-color: #1D3557;
+  /*set the color you want here*/
+}
+
 .btn--who-am-i, .btn--download {
-  background-color: #3080e8;
+  background-color: #457B9D;
+  border-color: #457B9D;
   border-radius: 12px;
   height: 2.7rem;
+}
+
+.btn-primary:hover {
+  color: #1D3557 !important;
 }
 
 .btn--download-link {
@@ -73,15 +65,15 @@ a:hover {
 }
 
 .fab, .fas {
-  color: #545454;
+  color: #457B9D;
 }
 
 .fab:hover, .fas:hover {
-  color: #3080e8;
+  color: #1D3557;
 }
 
 .fa-bullseye, .fa-hourglass-half {
-  color: #3080e8;
+  color: #1D3557;
 }
 
 .wait {
@@ -90,7 +82,7 @@ a:hover {
   flex-direction: row;
   width: 100%;
   justify-content: center;
-  color: #636e72;
+  color: #457B9D;
 }
 
 .active {
@@ -104,7 +96,7 @@ a:hover {
 }
 
 .navbar-brand--phe {
-  color: #3080e8 !important;
+  color: #1D3557 !important;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -114,7 +106,7 @@ a:hover {
 }
 
 .nav-link--phe {
-  color: #545454;
+  color: #1D3557;
   padding-right: 2rem;
   text-decoration: none;
 }
@@ -128,19 +120,18 @@ a:hover {
 }
 
 .footer {
-  color: white;
-  position: absolute;
+  background-color: #EDF6F9;
+  left: 0;
   bottom: 0;
   width: 100%;
 }
 
 .footer-name {
   text-decoration: none;
-  color: #3080e8;
+  color: #1D3557;
 }
 
 .footer-container {
-  background-color: #fff;
   display: flex;
   flex-direction: row;
 }
@@ -148,7 +139,7 @@ a:hover {
 .footer-container--profile {
   flex-direction: column;
   flex-wrap: wrap;
-  color: #3080e8;
+  color: #1D3557;
   width: 30%;
   padding: 2rem 2rem 1rem 12.5rem;
 }
@@ -161,7 +152,7 @@ a:hover {
 
 .footer-profile--description {
   font-size: 1rem;
-  color: #545454;
+  color: #1D3557;
 }
 
 .footer-container--social {
@@ -209,12 +200,12 @@ li.social-links {
 }
 
 .footer-color {
-  color: #545454 !important;
+  color: #1D3557 !important;
   padding-right: 4rem;
 }
 
 .footer-color:hover {
-  color: #3080e8 !important;
+  color: #457B9D !important;
 }
 
 .footer-copyright {
@@ -236,13 +227,15 @@ li.social-links {
 
 .section-banner-job {
   font-size: 1.5rem !important;
+  color: #1D3557;
+  font-weight: 200;
 }
 
 .section-banner-welcome {
   margin: auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #f4f5f6;
+  background-color: #EDF6F9;
 }
 
 .section-banner-welcome-container {
@@ -264,7 +257,6 @@ li.social-links {
 .section-banner-welcome-infos-text {
   display: flex;
   flex-direction: column;
-  color: #545454;
 }
 
 .section-banner-welcome-infos-buttons {
@@ -301,22 +293,139 @@ li.social-links {
 .section-presentation-col--title {
   margin-bottom: 0.4rem;
   font-weight: bold;
-  color: #3080e8;
+  color: #1D3557;
 }
 
 .container-contact {
-  background-color: #f4f5f6;
+  background-color: #EDF6F9;
   display: flex;
   flex-direction: row;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #636e72;
+  color: #457B9D;
 }
 
 .contact-text {
   margin-left: 12rem;
   align-items: left;
 }
+
+.section-banner-about-container {
+  padding-left: 12.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section-banner-about--title {
+  color: #1D3557;
+  font-size: 1.8rem !important;
+}
+
+.section-banner-about--subtitle {
+  font-size: 1.5rem !important;
+  color: #1D3557;
+  font-weight: 200;
+}
+
+.career-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.career-container--subcontainer {
+  flex: 1;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.separator {
+  border: #1D3557 solid;
+  border-width: 0.5px;
+}
+
+.carrer-container--subcontainer-title {
+  color: #1D3557;
+  margin-top: 0 !important;
+}
+
+mark {
+  display: inline-block;
+  line-height: 0em;
+  padding-bottom: 0.5em;
+  color: #1D3557;
+  background-color: #A8DADC;
+}
+
+.carrer-container-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.carrer-image-logo {
+  padding-top: 0.5rem;
+  width: 180px;
+}
+
+.carrer-image-logo-xp {
+  padding-top: 0.5rem;
+  width: 80px;
+}
+
+.logo-lycee {
+  width: 150px !important;
+}
+
+.description-lycee {
+  padding-left: 5rem !important;
+}
+
+.carrer-item-description {
+  padding-left: 3rem;
+}
+
+.carrer-item-description-title {
+  margin-bottom: 0 !important;
+}
+
+.carrer-item-description-content {
+  margin-top: 0.3rem !important;
+  margin-bottom: 0 !important;
+  font-weight: 200;
+}
+
+.carrer-item-description-content--date {
+  margin-top: 0 !important;
+  margin-bottom: 0.3rem !important;
+  font-weight: 200;
+}
+
+.xp {
+  margin-bottom: 0 !important;
+}
+
+.xp-duration {
+  font-weight: 200;
+  margin-bottom: 0.3rem !important;
+}
+
+.know-more {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.special-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 
 @media screen and (max-width: 1024px) {
   .footer-container--profile {
