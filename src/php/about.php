@@ -45,8 +45,93 @@
 
 <body>
     <?php include('../html/header.html'); ?>
-    <div>
-        <h2 class="wait">En cours de développement... 🕒</h2>
+    <div class="section-banner-welcome">
+        <div class='section-banner-welcome-container'>
+            <div class='section-banner-about-container'>
+                <h1 class='section-banner-about--title'>A propos de moi !</h1>
+                <h3 class='section-banner-about--subtitle'>Vous pouvez faire connaissance de mon parcours scolaire </br>
+                    et professionnel au travers de cette page</h3>
+            </div>
+        </div>
+    </div>
+    <div class="career-container">
+        <div class="career-container--subcontainer">
+            <h2 class="carrer-container--subcontainer-title">
+                <mark> Mes formations</mark>
+            </h2>
+            <div class="carrer-container-item">
+                <div class="carrer-item-logo">
+                    <img src="../../public/images/cci_logo.png" alt="CCI Alsace Eurométropole Logo" class="carrer-image-logo">
+                </div>
+                <div class="carrer-item-description">
+                    <h4 class="carrer-item-description-title">CCI Campus Colmar</h4>
+                    <p class="carrer-item-description-content">Licence, Développeur de solutions mobiles et connectées</p>
+                    <h5 class="carrer-item-description-content--date">Colmar ・ <em>2019-2020</em></h5>
+                    <a href="https://www.ccicampus.fr/bureautique-pao-informatique-web-cao-plm/developpeur-charge-de-projets-en-solutions-pour-mobiles-et" class="know-more" target="blank">En savoir plus...</a>
+                </div>
+            </div>
+            <div class="carrer-container-item">
+                <div class="carrer-item-logo">
+                    <img src="../../public/images/iut_rs_logo.png" alt="IUT Robert Schuman Logo" class="carrer-image-logo">
+                </div>
+                <div class="carrer-item-description">
+                    <h4 class="carrer-item-description-title">IUT Robert Schuman <em></em></h4>
+                    <p class="carrer-item-description-content">DUT, Informatique</p>
+                    <h5 class="carrer-item-description-content--date">Illkirch ・ <em>2017-2019</em></h5>
+                    <a href="https://www.unistra.fr/etudes/decouvrir-nos-formations/par-type-de-diplomes/dut/dut/cursus/FH48?cHash=a91cec443e727242d6ffc6b5b3141cc4" class="know-more" target="blank">En savoir plus...</a>
+                </div>
+            </div>
+            <div class="carrer-container-item">
+                <div class="carrer-item-logo">
+                    <img src="../../public/images/heinrich_nessel_logo.svg" alt="Lycée Heinrich-Nessel Logo" class="carrer-image-logo logo-lycee">
+                </div>
+                <div class="carrer-item-description description-lycee">
+                    <h4 class="carrer-item-description-title">Lycée Heinrich-Nessel</h4>
+                    <p class="carrer-item-description-content">Baccalauréat, Science de l'ingénierie, Mention assez-bien</p>
+                    <h5 class="carrer-item-description-content--date">Haguenau ・ <em>2015-2017</em></h5>
+                    <a href="https://www.lycee-heinrich-nessel.fr/" class="know-more" target="blank">En savoir plus...</a>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="career-container--subcontainer">
+            <h2 class="carrer-container--subcontainer-title">
+                <mark> Mes expériences</mark>
+            </h2>
+            <div class="carrer-container-item">
+                <div class="carrer-item-logo">
+                    <img src="../../public/images/atolia_logo.png" alt="Atolia Logo" class="carrer-image-logo-xp">
+                </div>
+                <div class="carrer-item-description">
+                    <h4 class="carrer-item-description-title">Développeur mobile</h4>
+                    <p class="carrer-item-description-content xp">Atolia - CDI</p>
+                    <h6 class="carrer-item-description-content xp xp-duration">octobre 2020 - Aujourd'hui ・ 9 mois</h6>
+                    <a href="https://www.atolia.com/fr/" class="know-more" target="blank">En savoir plus...</a>
+                </div>
+            </div>
+            <div class="carrer-container-item">
+                <div class="carrer-item-logo">
+                    <img src="../../public/images/atolia_logo.png" alt="Atolia Logo" class="carrer-image-logo-xp">
+                </div>
+                <div class="carrer-item-description">
+                    <h4 class="carrer-item-description-title">Développeur mobile</h4>
+                    <p class="carrer-item-description-content xp">Atolia - Contrat d'apprentissage</p>
+                    <h6 class="carrer-item-description-content xp xp-duration">octobre 2019 - septembre 2020 ・ 1 an</h6>
+                    <a href="https://www.atolia.com/fr/" class="know-more" target="blank">En savoir plus...</a>
+                </div>
+            </div>
+            <div class="carrer-container-item">
+                <div class="carrer-item-logo">
+                    <img src="../../public/images/kwit_logo.png" alt="Atolia Logo" class="carrer-image-logo-xp">
+                </div>
+                <div class="carrer-item-description">
+                    <h4 class="carrer-item-description-title">Développeur web</h4>
+                    <p class="carrer-item-description-content xp">Kwit - Stage</p>
+                    <h6 class="carrer-item-description-content xp xp-duration">avril 2019 - juin 2019 ・ 3 mois</h6>
+                    <a href="https://kwit.app/fr" class="know-more" target="blank">En savoir plus...</a>
+                </div>
+            </div>
+        </div>
     </div>
     <?php include('../html/footer.html'); ?>
 </body>

@@ -46,7 +46,7 @@
 <body>
     <?php include('../html/header.html'); ?>
     <h2 class="wait">En cours de développement... 🕒</h2>
-    <?php include('../html/footer.html'); ?>
+    <div class="special-footer"><?php include('../html/footer.html'); ?></div>
 </body>
 
 </html>

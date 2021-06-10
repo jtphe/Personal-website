@@ -53,11 +53,11 @@
     <div class='section-banner-welcome-container'>
       <div class='section-banner-welcome-infos'>
         <div class='section-banner-welcome-infos-text'>
-          <div class='section-banner-welcome-infos-text-first'>
+          <div>
             <h1 class='section-banner-hello'>Hello, moi c'est Jean Phe !</h1>
           </div>
-          <div class='section-banner-welcome-infos-text-second'>
-            <h3 class='section-banner-job'>Je suis développeur 🧑🏻‍💻</h3>
+          <div>
+            <h3 class='section-banner-job'>Je suis <mark> développeur </mark> 🧑🏻‍💻</h3>
           </div>
         </div>
         <div class='section-banner-welcome-infos-buttons'>
