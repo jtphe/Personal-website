@@ -426,6 +426,44 @@ mark {
   width: 100%;
 }
 
+.projects-global-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.projects-item-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  border: 1px solid #EDF6F9;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: .3s;
+  padding-top: 0;
+  margin: 20px;
+  max-width: 25%;
+}
+
+.project-thumb-image {
+  width: 100%;
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.project-thumb {
+  align-self: center;
+}
+
+.projects-item-content{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 1rem 2rem;
+}
 
 @media screen and (max-width: 1024px) {
   .footer-container--profile {
