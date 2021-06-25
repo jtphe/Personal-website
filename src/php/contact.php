@@ -2,24 +2,28 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
     <link rel="icon" href="/favicon/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="/favicon/favicon.ico">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
     <meta http-equiv="content-language" content="en">
     <meta http-equiv="content-language" content="fr">
     <meta name="description" lang="fr" content="Vous pouvez me contacter sur cette page">
     <meta name="description" lang="en" content="You can contact me on this page">
+    <meta property="og:title" content="Contacter Jean-Thavorak Phe">
+    <meta property="og:site_name" content="Portefolio de Jean-Thavorak Phe">
+    <meta property="og:url" content="https://jtphe.ddns.net/src/php/contact.php">
+    <meta property="og:description" content="Une question, une demande, n'hésitez pas à me contacter 😊">
+    <meta property="og:type" content="profile">
+    <meta name="msapplication-TileColor" content="#3080e8">
+    <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="../../public/images/favicons/ms-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="../../public/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../public/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../public/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="../../public/images/favicons/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3080e8">
-    <meta name="msapplication-TileColor" content="#3080e8">
-    <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
-    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
     <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="msapplication-TileImage" content="../../public/images/favicons/ms-icon-144x144.png">
     <title>Contact</title>
     <script type="text/javascript">
         var _paq = window._paq || [];

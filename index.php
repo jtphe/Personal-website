@@ -2,17 +2,19 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
   <link rel="icon" href="/favicon/favicon.png" type="image/x-icon">
-  <link rel="shortcut icon" href="/favicon/favicon.ico">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
   <meta http-equiv="content-language" content="en">
   <meta http-equiv="content-language" content="fr">
   <meta name="description" lang="fr" content="Bonjour je suis Jean-Thavorak Phe & je suis un développeur">
   <meta name="description" lang="en" content="Hello I'm Jean-Thavorak Phe & I'm a developer">
-  <link rel="apple-touch-icon" sizes="152x152" href="../../public/images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../../public/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../../public/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="../../public/images/favicons/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3080e8">
+  <meta property="og:title" content="Accueil Jean-Thavorak Phe">
+  <meta property="og:site_name" content="Portefolio de Jean-Thavorak Phe">
+  <meta property="og:url" content="https://jtphe.ddns.net">
+  <meta property="og:description" content="Ceci est la page d'accueil de mon site personnel. Je m'appelle Jean-Thavorak Phe et je suis développeur.">
+  <meta property="og:type" content="profile">
+  <meta property="og:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage" content="../../public/images/favicons/ms-icon-144x144.png">
   <meta name="msapplication-TileColor" content="#3080e8">
   <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
@@ -21,8 +23,11 @@
   <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
   <script src="./public/js/navbar.js"></script>
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
-  <meta name="msapplication-TileColor" content="#000000">
-  <meta name="msapplication-TileImage" content="../../public/images/favicons/ms-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../public/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../public/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../public/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../../public/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3080e8">
   <title>Jean-Thavorak Phe</title>
   <script type="text/javascript">
     var _paq = window._paq || [];
