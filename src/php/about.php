@@ -3,8 +3,8 @@
     <!-- Primary Meta Tags -->
     <title>Hello, moi c'est Jean Phe !</title>
     <meta name="title" content="Hello, moi c'est Jean Phe !">
-    <meta name="description" lang="fr" content="Quelques informations à propos de moi">
-    <meta name="description" lang="en" content="Some informations about me">
+    <meta name="description" content="Quelques informations à propos de moi">
+    <meta name="description" content="Some informations about me">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -20,6 +20,9 @@
     <meta property="twitter:description" content="Quelques informations à propos de moi">
     <meta property="twitter:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
     
+    <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
+    <link rel="icon" href="/favicon/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
     <meta http-equiv="content-language" content="en">
     <meta http-equiv="content-language" content="fr">
     <meta name="msapplication-TileColor" content="#000000">
