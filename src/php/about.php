@@ -1,24 +1,29 @@
 <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
-    <link rel="icon" href="/favicon/favicon.png" type="image/x-icon">
-    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="content-language" content="en">
-    <meta http-equiv="content-language" content="fr">
+    <!-- Primary Meta Tags -->
+    <title>Hello, moi c'est Jean Phe !</title>
+    <meta name="title" content="Hello, moi c'est Jean Phe !">
     <meta name="description" lang="fr" content="Quelques informations à propos de moi">
     <meta name="description" lang="en" content="Some informations about me">
-    <meta property="og:title" content="A propos de Jean-Thavorak Phe">
-    <meta property="og:site_name" content="Portefolio de Jean-Thavorak Phe">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jtphe.ddns.net/">
+    <meta property="og:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="og:description" content="Quelques informations à propos de moi">
+    <meta property="og:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jtphe.ddns.net/">
+    <meta property="twitter:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="twitter:description" content="Quelques informations à propos de moi">
+    <meta property="twitter:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
+    
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="content-language" content="fr">
     <meta property="og:url" content="https://jtphe.ddns.net/src/php/about.php">
-    <meta property="og:description" content="Vous pouvez faire connaissance de mon parcours scolaire
-et professionnel au travers de cette page">
     <meta property="og:type" content="profile">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/cci_logo.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/iut_rs_logo.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/heinrich_nessel_logo.svg">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/atolia_logo.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/atolia_logo.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/kwit_logo.png">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="../../public/images/favicons/ms-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#3080e8">
