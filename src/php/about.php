@@ -22,8 +22,6 @@
     
     <meta http-equiv="content-language" content="en">
     <meta http-equiv="content-language" content="fr">
-    <meta property="og:url" content="https://jtphe.ddns.net/src/php/about.php">
-    <meta property="og:type" content="profile">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="../../public/images/favicons/ms-icon-144x144.png">
     <meta name="msapplication-TileColor" content="#3080e8">
