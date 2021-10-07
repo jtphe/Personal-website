@@ -1,17 +1,29 @@
 <head>
     <meta charset="utf-8">
+    <!-- Primary Meta Tags -->
+    <title>Hello, moi c'est Jean Phe !</title>
+    <meta name="title" content="Hello, moi c'est Jean Phe !">
+    <meta name="description" content="Vous pouvez me contacter sur cette page">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jtphe.ddns.net/">
+    <meta property="og:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="og:description" content="Vous pouvez me contacter sur cette page">
+    <meta property="og:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jtphe.ddns.net/">
+    <meta property="twitter:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="twitter:description" content="Vous pouvez me contacter sur cette page">
+    <meta property="twitter:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
+
     <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
     <link rel="icon" href="/favicon/favicon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
     <meta http-equiv="content-language" content="en">
     <meta http-equiv="content-language" content="fr">
-    <meta name="description" lang="fr" content="Vous pouvez me contacter sur cette page">
-    <meta name="description" lang="en" content="You can contact me on this page">
-    <meta property="og:title" content="Contacter Jean-Thavorak Phe">
-    <meta property="og:site_name" content="Portefolio de Jean-Thavorak Phe">
-    <meta property="og:url" content="https://jtphe.ddns.net/src/php/contact.php">
-    <meta property="og:description" content="Une question, une demande, n'hésitez pas à me contacter 😊">
-    <meta property="og:type" content="profile">
     <meta name="msapplication-TileColor" content="#3080e8">
     <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">

@@ -1,22 +1,29 @@
 <head>
     <meta charset="utf-8">
+    <!-- Primary Meta Tags -->
+    <title>Hello, moi c'est Jean Phe !</title>
+    <meta name="title" content="Hello, moi c'est Jean Phe !">
+    <meta name="description" content="Quelques-un de mes projets">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jtphe.ddns.net/">
+    <meta property="og:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="og:description" content="Quelques-un de mes projets">
+    <meta property="og:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jtphe.ddns.net/">
+    <meta property="twitter:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="twitter:description" content="Quelques-un de mes projets">
+    <meta property="twitter:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
+
     <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
     <link rel="icon" href="/favicon/favicon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
     <meta http-equiv="content-language" content="en">
     <meta http-equiv="content-language" content="fr">
-    <meta name="description" lang="fr" content="Quelques-un de mes projets">
-    <meta name="description" lang="en" content="Some of my projects">
-    <meta property="og:title" content="Les projets de Jean-Thavorak Phe">
-    <meta property="og:site_name" content="Portefolio de Jean-Thavorak Phe">
-    <meta property="og:url" content="https://jtphe.ddns.net/src/php/projects.php">
-    <meta property="og:description" content="Différents projets et réalisations fait tout au long de mes études et en dehors !">
-    <meta property="og:type" content="profile">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/mellitus_screen.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/ownspace_screen.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/ownspace_screen.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/eliseretouches_screen.png">
-    <meta property="og:image" content="https://jtphe.ddns.net/public/images/jtphe_screen.png">
     <meta name="msapplication-TileColor" content="#3080e8">
     <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
