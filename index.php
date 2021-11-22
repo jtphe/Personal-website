@@ -70,12 +70,12 @@
             <h1 class='section-banner-hello'>Hello, moi c'est Jean Phe !</h1>
           </div>
           <div>
-            <h3 class='section-banner-job'>Je suis <mark> développeur </mark> 🧑🏻‍💻</h3>
+            <h3 class='section-banner-job'>Je suis <mark> développeur full stack </mark> 🧑🏻‍💻</h3>
           </div>
         </div>
         <div class='section-banner-welcome-infos-buttons'>
           <div class='section-banner-welcome-infos-button-whoami'>
-            <button type="button" class="btn btn-primary btn--who-am-i"><a class="btn--download-link" href="src/php/about.php">Qui suis-je ?</a></button>
+            <button type="button" class="btn btn-primary btn--who-am-i"><a class="btn--download-link" href="https://jtphe.ddns.net/src/php/about.php">Qui suis-je ?</a></button>
           </div>
           <div class='section-banner-welcome-infos-button-download'>
             <!-- <button class='btn-download'></button> -->
@@ -92,7 +92,7 @@
   <div class="section-presentation">
     <div class="section-presentation-col">
       <div class="section-presentation-col--title main-title" id="who-am-i"> <i class="far fa-question-circle"></i> Qui suis-je</div>
-      <div class="section-presentation-col--content">Passionné par l'informatique, les nouvelles technologies et l'électronique j'excerce actuellement le poste de développeur mobile chez <a href="https://www.atolia.com">Atolia</a> 💻
+      <div class="section-presentation-col--content">Passionné par l'informatique, les nouvelles technologies et l'électronique j'exerce actuellement le poste de développeur full stack en alternance chez <a href="https://www.atolia.com">Atolia</a> 💻
       </div>
     </div>
     <div class="section-presentation-col">

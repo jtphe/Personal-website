@@ -1,21 +1,21 @@
 <head>
     <meta charset="utf-8">
     <!-- Primary Meta Tags -->
-    <title>Hello, moi c'est Jean Phe !</title>
-    <meta name="title" content="Hello, moi c'est Jean Phe !">
+    <title>Me contacter</title>
+    <meta name="title" content="Me contacter">
     <meta name="description" content="Vous pouvez me contacter sur cette page">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://jtphe.ddns.net/">
-    <meta property="og:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="og:url" content="https://jtphe.ddns.net/src/php/contact.php">
+    <meta property="og:title" content="Me contacter">
     <meta property="og:description" content="Vous pouvez me contacter sur cette page">
     <meta property="og:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://jtphe.ddns.net/">
-    <meta property="twitter:title" content="Hello, moi c'est Jean Phe !">
+    <meta property="twitter:url" content="https://jtphe.ddns.net/src/php/contact.php">
+    <meta property="twitter:title" content="Me contacter">
     <meta property="twitter:description" content="Vous pouvez me contacter sur cette page">
     <meta property="twitter:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
 
