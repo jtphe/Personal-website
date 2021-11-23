@@ -109,6 +109,6 @@
       </div>
     </div>
   </div>
-  <?php include('./src/html/footer.html'); ?>
+     <div class="special-footer"><?php include('./src/html/footer.html'); ?></div>
 </body>
 <html>
