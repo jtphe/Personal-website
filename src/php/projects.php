@@ -26,6 +26,9 @@
     <meta http-equiv="content-language" content="fr">
     <meta name="msapplication-TileColor" content="#3080e8">
     <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
     <meta name="theme-color" content="#ffffff">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="../../public/images/favicons/ms-icon-144x144.png">

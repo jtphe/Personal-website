@@ -19,7 +19,7 @@
     <meta property="twitter:title" content="A propos de moi">
     <meta property="twitter:description" content="Quelques informations à propos de moi">
     <meta property="twitter:image" content="https://jtphe.ddns.net/public/images/profilePicture.png">
-    
+
     <link rel="shortcut icon" href="/favicon/favicon.png" type="image/x-icon">
     <link rel="icon" href="/favicon/favicon.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=1,user-scalable=no">
@@ -30,6 +30,9 @@
     <meta name="msapplication-TileColor" content="#3080e8">
     <meta name="msapplication-TileImage" content="../../public/images/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/921fec88a5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../../public/css/style.css">
     <link rel="apple-touch-icon" sizes="152x152" href="../../public/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../public/images/favicons/favicon-32x32.png">
@@ -84,7 +87,7 @@
                     <h4 class="carrer-item-description-title">CCI Campus Colmar</h4>
                     <p class="carrer-item-description-content">Licence, Développeur de solutions mobiles et connectées</p>
                     <h5 class="carrer-item-description-content--date">Colmar ・ <em>2019-2020</em></h5>
-                    <a href="https://www.ccicampus.fr/bureautique-pao-informatique-web-cao-plm/developpeur-charge-de-projets-en-solutions-pour-mobiles-et" class="know-more" target="blank">En savoir plus...</a>
+                    <a href="https://www.ccicampus.fr/sites/default/files/dsmc-cci-campus.pdf" class="know-more" target="blank">En savoir plus...</a>
                 </div>
             </div>
             <div class="carrer-container-item">
@@ -150,7 +153,7 @@
             </div>
         </div>
     </div>
-    <?php include('../html/footer.html'); ?>
+    <div class="special-footer"><?php include('../html/footer.html'); ?></div>
 </body>
 
 </html>
