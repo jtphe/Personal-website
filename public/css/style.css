@@ -2,7 +2,12 @@
   font-family: 'Futura Now Headline Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Futura Now Headline Regular'), url('FuturaNowHeadline.woff') format('woff');
+  src: local('../font/FuturaNowHeadline Regular'), url('../font/FuturaNowHeadline.woff') format('woff');
+}
+
+*{
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -10,14 +15,59 @@ body {
   font-family: Futura Now Headline Regular, "Helvetica Neue", sans-serif;
 }
 
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+  height: 10px;
+}
+
+nav ul li a {
+  color: 'white';
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+
 a {
   text-decoration: none;
   color: #457B9D;
 }
 
-a:hover {
+a.active, a:hover {
   text-decoration: none;
+  color: #457B9D;
+  transition: .5s;
+}
+
+label {
+  font-size: 30px;
   color: #1D3557;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+} 
+
+label.navbar-brand--phe {
+  color: #1D3557 !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 80px;
+  padding: 0 50px;
+  margin-right: 0px;
+  float: none;
+  display: inline-block;
+}
+
+#check{
+  display: none;
 }
 
 .main-title {
@@ -87,18 +137,6 @@ a:hover {
 
 .active {
   display: block;
-}
-
-.navbar-phe {
-  background-color: #fff;
-  display: flex;
-  padding: 16px;
-}
-
-.navbar-brand--phe {
-  color: #1D3557 !important;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .navbar-menu {
@@ -279,8 +317,8 @@ li.social-links {
   flex-direction: row;
   margin: auto;
   justify-content: center;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .section-presentation-col {
@@ -299,7 +337,8 @@ li.social-links {
 .container-contact {
   background-color: #EDF6F9;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 100%;
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #457B9D;
@@ -311,7 +350,7 @@ li.social-links {
 }
 
 .section-banner-about-container {
-  padding-left: 12.5rem;
+  padding-left: 3.3rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -339,7 +378,8 @@ li.social-links {
 .career-container--subcontainer {
   flex: 1;
   flex-direction: column;
-  padding-left: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .separator {
@@ -350,6 +390,7 @@ li.social-links {
 .carrer-container--subcontainer-title {
   color: #1D3557;
   margin-top: 0 !important;
+  margin-bottom: 2rem;
 }
 
 mark {
@@ -465,6 +506,49 @@ mark {
   padding: 1rem 2rem 1rem 2rem;
 }
 
+@media screen and (max-width: 1100px) {
+  .footer-container--profile {
+    padding-left: 3rem;
+  }
+
+  .footer-container--social-navbar{
+    margin-left: 0
+  }
+
+  .section-banner-about--title {
+    font-size: 2rem !important;
+  }
+
+  .section-banner-about--subtitle {
+    font-size: 1rem !important;
+  }
+
+  .carrer-container--subcontainer-title {
+    font-size: 2rem !important;
+  }
+
+  .carrer-item-description-title {
+    font-size: 1rem !important;
+  }
+
+  .carrer-item-description-content--date {
+    font-size: 0.8rem !important;
+  }
+  
+  .carrer-image-logo {
+    width: 150px;
+  }
+
+  .logo-lycee {
+    width: 118px !important;
+  }
+
+  .carrer-image-logo-xp {
+    width: 60px;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   .footer-container--profile {
     padding-left: 7.5rem;
@@ -475,23 +559,111 @@ mark {
 }
 
 @media screen and (max-width: 930px) {
+  label.navbar-brand--phe {
+    font-size: 1.8rem;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  nav ul {
+    margin-top: 0;
+  }
+
   .footer-container--profile {
     padding-left: 3rem;
     width: 35%;
   }
+
+  .carrer-image-logo {
+    width: 120px;
+  }
+
+  .logo-lycee {
+    width: 90px !important;
+  }
 }
 
 @media screen and (max-width: 880px) {
+  label {
+    display: block !important;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #EDF6F9;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover, a.active {
+    background: none;
+    color: #1D3557;
+  }
+
+  .carrer-container--subcontainer-title {
+    font-size: 1.7rem !important;
+  }
+
+  .carrer-item-description-title {
+    font-size: 0.9rem !important;
+  }
+
+  .carrer-item-description-content {
+    font-size: 0.9rem !important;
+  }
+
+  .carrer-item-description-content--date {
+    font-size: 0.7rem !important;
+  }
+
+  .carrer-item-description {
+    padding-left: 2rem;
+  }
+
+  .description-lycee {
+    padding-left: 4rem !important;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  } 
+
+  .profile-picture {
+    width: 260px;
+    height: 260px;
+  } 
   .footer-container--social-navbar {
-    flex-direction: column;
     margin-left: 0;
-    margin-right: 2rem;
+    margin-right: 0;
   }
   .social-links {
-    padding-left: 0;
+    position: static;
+    height: 0;
   }
   .container--social-col {
     margin: 0;
+  }
+  .section-presentation-col--content{
+    word-break: break-all;
+  }
+  .section-presentation-col{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
   .section-presentation {
     font-size: 0.8rem !important;
@@ -505,6 +677,42 @@ mark {
   .typeform-share {
     font-size: 1rem !important;
   }
+  .projects-global-container {
+  flex-direction: column;
+  }
+  .projects-item-container {
+  max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .footer-container--social {
+    padding-left: 0px;
+  }
+  .navbar-phe, .navbar-menu {
+    flex-direction: column;
+    z-index: 100;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .footer-container--social-navbar{
+    flex-direction: column;
+  }
+  .container--social-icon {
+    margin-left: 32px;
+  }
+  .section-presentation-col--content{
+    word-break: break-word;
+  }
+
+  .career-container--subcontainer {
+    padding-left:2.5rem;
+    padding-right: 2.5rem;
+  }
+  .section-banner-about-container {
+    padding-left: 2.5rem;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -514,6 +722,9 @@ mark {
   }
   .footer-color {
     padding-right: 2rem;
+  }
+  .container--social-icon {
+    margin-left: 0;
   }
 }
 
@@ -610,14 +821,12 @@ mark {
 }
 
 @media screen and (max-width: 415px) {
-  .navbar-phe, .navbar-menu {
-    flex-direction: column;
+  label.navbar-brand--phe {
+    font-size: 1.6rem;
+    padding-left: 35px;
   }
   .navbar-menu--right {
     margin-left: 0;
-  }
-  #js-menu {
-    display: none;
   }
   .navbar-toggle--phe {
     align-self: flex-end;
@@ -642,10 +851,64 @@ mark {
     margin-right: 1.5rem;
   }
   .typeform-share {
-    font-size: 0.7rem !important;
+    font-size: 1rem !important;
     line-height: 40px !important;
     height: 40px !important;
     padding: 0 20px !important;
+  }
+  .section-presentation-col--content{
+    word-break: break-word;
+  }
+  .footer-container--profile {
+    padding-left: 4rem;
+    padding-right: 0;
+  }
+  .footer-container--social {
+    padding-top: 0;
+  }
+  .footer-container--social-navbar {
+    margin-left: 1rem
+  }
+  .container--social-icon {
+    margin-bottom: 4rem;
+  }
+  .social-links:first-child {
+    padding-left: 16px;
+  }
+  .navbar-menu {
+    padding-left: 0;
+  }
+  .career-container{
+    flex-direction: column !important;
+    padding-top: 2rem !important;
+    padding-bottom: 0 !important;
+  }
+  .separator {
+    border-width: 0;
+  }
+  .section-banner-about--title {
+    font-size: 1.8rem !important;
+  }
+
+  .container-contact {
+    margin-bottom: 3rem;
+  }
+
+  .special-footer {
+    position: relative; 
+  }
+}
+
+@media screen and (max-width: 390px){
+  .footer-container--profile {
+    padding-left: 3.5rem;
+  }
+  .footer-container--social {
+    padding-left: 1.5rem;
+  }
+
+  .section-banner-about-container {
+    padding-right: 2rem;
   }
 }
 
